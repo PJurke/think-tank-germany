@@ -9,3 +9,28 @@ body
 {
     margin: 0;
 }
+
+/* ---------- VARIABLES */
+
+:root
+{
+    --bu1: 12px;
+    --bu2: 24px;
+}
+
+/* ---------- BASIC STRUCTURE */
+
+#global-header
+{
+    padding: var(--bu2);
+}
+
+#global-main
+{
+    padding: var(--bu2);
+}
+
+#global-footer
+{
+    padding: var(--bu2);
+}
